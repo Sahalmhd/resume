@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    
+}
+
+.container{
+  background:linear-gradient(to bottom, #73b1c5 0%, hsl(194, 72%, 13%) 100%) ;
+background-repeat: no-repeat;
+min-width: 900px;
+display: flex;
+justify-content: center; 
+align-items: center;
+
+}
+.resume-box{
+  margin: 0 auto;
+  margin: 50px;
+ display: flex;
+
+}
+.left{
+    background-color: rgb(9, 44, 85);
+    width: 250px;
+    height: 1000px;
+    float: left;
+    
+}
+
+.profile-img{
+    display: block;
+    margin-left:auto ;
+    margin-right: auto;
+    margin-top: 25px;
+    z-index: 9;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 3px solid #63c9ee ;
+}
+.name{
+    color: azure;
+    text-align: center;
+    font-size: 28px;
+    margin-top: 15px;
+}
+ .name span{
+    color: #62cbd3;
+}
+.heading-1{
+    margin-top: 60px;
+    margin-left: 2px;
+    color: aliceblue;
+    font-size: 20px;
+    padding: 10px;
+    text-transform: capitalize;
+    text-transform: uppercase;
+
+}
+.p1{
+    background-color: #ffffff;
+    width: 30px;
+    height: 30px;
+    margin-top: 25px;
+    font-size: 15px;
+    line-height: 12px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.p1 svg{
+    margin-left: 3px;
+    margin-top: 4px;
+    
+    
+    
+}
+.adress-p{
+    color: #ffffff;
+    text-transform:capitalize ;
+    font-size: 18px;
+    margin-top: -27px;
+    margin-left: 45px;
+    text-indent: 5px;
+}
+
+
+  .heading-2{
+    margin-top: 5px;
+    margin-left: 12px;
+    color: aliceblue;
+    font-size: 15px;
+    padding-bottom: 6px;
+    padding-top: 25px;
+    text-transform: capitalize;
+    text-transform: uppercase;
+
+  }
+  .skill-container{
+    height: 12px;
+    margin-left: 12px;
+    margin-right: 12px;
+    background-color: rgb(134, 132, 132);
+  }
+  .skill-bar-fill-html{
+    background-color: #62cbd3;
+    width: 180px;
+    height: 12px;
+  }
+  .skill-bar-fill-css{
+    background-color: #62cbd3;
+    width: 150px;
+    height: 12px;
+  }
+  .skill-bar-fill-js{
+    background-color: #62cbd3;
+    width: 120px;
+    height: 12px;
+  }
+  .skill-bar-fill-fig{
+    background-color: #62cbd3;
+    width: 110px;
+    height: 12px;
+  }
+  
+  .right{
+    background-color: rgb(74, 88, 95);
+    width: 550px;
+    height: 1000px;
+   
+  }
+  .heading-3{
+    
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding-left: 8px;
+    color: aliceblue;
+    font-size: 25px;
+    text-transform: uppercase;
+  }
+  .heading-4{
+    margin-top: -10px;
+    margin-left: 15px;
+    margin-right: 60px;
+    line-height: 30px;
+    color: rgb(205, 209, 212);
+    font-size: 18px;
+    padding-bottom: 6px;
+    padding-top: 25px;
+    text-transform: capitalize;
+    text-transform: uppercase;
+
+  }
+  .heading-5{
+    margin-top: -15px;
+    margin-left: 15px;
+    margin-right: 25px;
+    color: #62cbd3;
+    font-size: 22px;
+    padding-bottom: 6px;
+    padding-top: 25px;
+    text-transform: capitalize;
+    text-transform: uppercase;
+
+  }
